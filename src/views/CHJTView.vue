@@ -1,0 +1,88 @@
+<!-- 参会交通 -->
+
+<template>
+  <div class="chjt">
+    <img src="@/assets/img/indexBg.png" style="width: 100%; position: relative; top: 0; left: 0; "alt="logo">
+    <main>
+      <div class="title">参会交通</div>
+      <img class="title-img" src="@/assets/img/chjt-title.png" alt="logo">
+      <div class="chjt-way" style="position: relative; top: -10px;">
+        <span>公共交通：</span>地铁8号线新港东站F出口步行310米约5分钟
+      </div>
+      <div class="chjt-way">
+        <span>自驾/打车：</span>导航广州南丰朗豪酒店(广州市海珠区新港东路638号)
+      </div> 
+      <div class="pic">
+        <div class="pic-addr">
+          <img src="@/assets/img/address.png" alt="logo">
+        </div>
+        <div class="pic-photo">
+          <img src="@/assets/img/hotel.png" alt="logo">
+          <div class="memo">广州南丰朗豪酒店</div>
+        </div>
+      </div>     
+    </main>
+    
+    <BackComponent />
+  </div>
+</template>
+
+<script setup lang="ts">
+import BackComponent from "@/components/BackComponent.vue";
+</script>
+
+<style scoped lang="less">
+  .chjt {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    main{
+      position: relative;
+      top: -60px;
+      .title{
+        width: 60%;
+        font-weight: 600;
+        font-size: 17px;
+        color: #E50011;
+        position: relative;
+        left: 56px;
+        top: 8px;
+      }
+      .title-img{
+        width: 100%;
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .chjt-way{
+        padding-left: 56px;
+        padding-right: 20px;
+        font-weight: 600;
+        font-size: 13px;
+        color: #666666;
+        span{
+          font-weight: 600;
+          font-size: 13px;
+          color: #E50011;
+        }
+      }
+      .pic{
+        padding:20px 60px;
+        img{          
+          width: 100%;
+        }
+        .pic-addr{
+          margin-bottom: 28px;
+        }
+        .pic-photo{
+          .memo{
+            margin: 10px auto;
+            text-align: center;
+            font-weight: 600;
+            font-size: 13px;
+            color: #666666;
+          }
+        }
+      }
+    }
+  }
+</style>
+
