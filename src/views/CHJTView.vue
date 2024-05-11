@@ -2,25 +2,25 @@
 
 <template>
   <div class="chjt">
-    <img src="@/assets/img/indexBg.png" style="width: 100%; position: relative; top: 0; left: 0; "alt="logo">
+    <img src="@/assets/img/logo-bg.jpg" style="width: 100%; position: relative; top: 0; left: 0; "alt="logo">
     <main>
       <div class="title">参会交通</div>
       <img class="title-img" src="@/assets/img/chjt-title.png" alt="logo">
       <div class="chjt-way" style="position: relative; top: -10px;">
-        <span>公共交通：</span>地铁8号线新港东站F出口步行310米约5分钟
+        <span>公共交通：</span>2号线西安门地铁站-3号口出步行800米
       </div>
       <div class="chjt-way">
-        <span>自驾/打车：</span>导航广州南丰朗豪酒店(广州市海珠区新港东路638号)
+        <span>自驾/打车：</span>导航南京凯宾斯基酒店（南京市秦淮区龙蟠中路218号）
       </div> 
       <div class="pic">
         <div class="pic-addr" @click="launchMap()">
-          <img src="@/assets/img/address.png" alt="logo">
+          <img src="@/assets/img/chjt-address.jpg" alt="logo">
           <div class="daohang">点击图片直接导航</div>
         </div>
-        <div class="pic-photo">
+        <!-- <div class="pic-photo">
           <img src="@/assets/img/hotel.png" alt="logo">
           <div class="memo">广州南丰朗豪酒店</div>
-        </div>
+        </div> -->
       </div>     
     </main>
     
@@ -32,7 +32,7 @@
 import BackComponent from "@/components/BackComponent.vue";
 
 const launchMap = () => {
-  window.location.href = 'https://uri.amap.com/marker?position=113.359973,23.096932&name=广州南丰朗豪酒店'
+  window.location.href = 'https://uri.amap.com/marker?position=118.804579,32.034779&name=南京凯宾斯基酒店'
 }
 
 </script>
@@ -43,7 +43,7 @@ const launchMap = () => {
     background-color: #FFFFFF;
     main{
       position: relative;
-      top: -60px;
+      // top: -80px;
       .title{
         width: 60%;
         font-weight: 600;

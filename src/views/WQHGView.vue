@@ -33,10 +33,19 @@
 <script setup lang="ts">
   import { ref } from "vue";
   import BackComponent from "@/components/BackComponent.vue";
+  import imgGuangzhou from '@/assets/img/wqhg-guangzhou.jpg';
   import imgChangsha from '@/assets/img/wqhg-changsha.png';
   import imgChengdu from '@/assets/img/wqhg-chengdu.png';
   import imgZhengzhou from '@/assets/img/wqhg-zhengzhou.png';
   const reviewlist = ref([
+    {
+      img: imgGuangzhou,
+      t1:'5月10日 广东广州',
+      t2:'大湾区峰会数智人力专题论坛',
+      t3:'AI与人力资源的革命性融合，智能科技重塑人才管理未来！',
+      detail:'本次会议聚焦AI在组织效能提升、全面薪酬管理、人力共享服务及人才发展等方面的应用，吸引了众多行业专家和企业高管。通过深入探讨和案例分享，会议成功展示了人工智能如何助力人力资源管理实现创新与优化，为行业发展提供了新思路。',
+      path: 'https://mp.weixin.qq.com/s/e0YsArHgdjU0p0fstPvItw'
+    },
     {
       img: imgChangsha,
       t1:'4月25日 湖南长沙',

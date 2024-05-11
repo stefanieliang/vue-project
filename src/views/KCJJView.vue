@@ -1,9 +1,9 @@
-<!-- 课程大纲 -->
+<!-- 课程简介 -->
 
 <template>
-  <div class="kcdg">
+  <div class="kcjj">
     <img style="width: 100%" src="@/assets/img/logo-bg.jpg"/>
-    <img style="width: 100%" src="@/assets/img/kcdg.jpg"/>
+    <img style="width: 100%" src="@/assets/img/kcjj.jpg"/>
     <BackComponent />
   </div>
 </template>
@@ -11,7 +11,7 @@
 import BackComponent from "@/components/BackComponent.vue";
 </script>
 <style scoped lang="less">
-  .kcdg{    
+  .kcjj{    
     min-height: 100vh;
     background-color: #FFFFFF;
   }

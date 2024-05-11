@@ -7,6 +7,7 @@ import DHRView from '../views/DHRView.vue'
 
 import JPKCView from '../views/JPKCView.vue'
 import KCDGView from '../views/KCDGView.vue'
+import KCJJView from '../views/KCJJView.vue'
 import SKJBView from '../views/SKJBView.vue'
 import DJBMView from '../views/DJBMView.vue'
 import CHJTView from '../views/CHJTView.vue'
@@ -39,6 +40,11 @@ const router = createRouter({
       path: '/kcdg',
       name: 'kcdg',
       component: KCDGView
+    },
+    {
+      path: '/kcjj',
+      name: 'kcjj',
+      component: KCJJView
     },
     {
       path: '/skjb',

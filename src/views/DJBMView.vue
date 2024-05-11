@@ -3,7 +3,7 @@
 <template>
   <div class="djbm">
     <div class="djbm-content">
-      <img src="@/assets/img/minipro.png"/>
+      <img src="@/assets/img/minipro.jpg"/>
       <p>微信扫描二维码</p>
       <p>即刻报名参加本次论坛</p>
     </div>
