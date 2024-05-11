@@ -2,7 +2,7 @@
 
 <template>
   <div class="jpkc">
-    <img style="width: 100%" src="@/assets/img/jpkc.jpg"/>
+    <!-- <img style="width: 100%" src="@/assets/img/jpkc.jpg"/> -->
     <BackComponent />
   </div>
 </template>

@@ -2,7 +2,7 @@
 
 <template>
   <div class="wqhg">    
-    <img src="@/assets/img/wqhgBg.png" style="width: 100%; position: absolute; top: 0; left: 0; z-index: -1; "alt="logo">
+    <img src="@/assets/img/wqhg-bg.png" style="width: 100%; position: absolute; top: 0; left: 0; z-index: -1; "alt="logo">
     <div class="wqhg-container">
       <div class="wqhg-container-item" v-for="(item, index) in reviewlist" :key="index">
         <div class="wqhg-container-item-title">
@@ -21,7 +21,7 @@
         </div>
         <div class="wqhg-container-item-more" @click="go(item.path)">
           <!-- <a :href="item.path"> -->
-            <img src="@/assets/img/wqhg-more9.png" alt="more">
+            <img src="@/assets/img/wqhg-more.png" alt="more">
           <!-- </a> -->
         </div>
       </div>

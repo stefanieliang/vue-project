@@ -1,6 +1,6 @@
 <template>
   <div class="back"> 
-    <img style="float: right; width:48px; height:48px" src="@/assets/img/back.png" @click="this.$router.push('/')"/>
+    <img style="float: right; width:48px; height:48px" src="@/assets/img/icon-back.png" @click="this.$router.push('/')"/>
   </div>
 </template>
 

@@ -26,11 +26,6 @@ const router = createRouter({
       name: 'dhr',
       component: DHRView
     },
-    // {
-    //   path: '/index',
-    //   name: 'index',
-    //   redirect: '/',
-    // },
     {
       path: '/jpkc',
       name: 'jpkc',
@@ -86,10 +81,6 @@ const router = createRouter({
       name: 'more',
       component: MoreView
     },
-    // { 
-    //   path: '*', 
-    //   component: WQHGView 
-    // }
   ],
   scrollBehavior(to, from, savedPosition) {
     // 始终滚动到顶部

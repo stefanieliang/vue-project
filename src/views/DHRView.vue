@@ -8,25 +8,25 @@
 
     <div class="nav">
       <van-row :gutter="20">
-        <!-- <van-col span="8" class="nav-item" @click="goTo('/jpkc')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/yicheng.png"/></div><span>精品课程</span></div></van-col> -->
-        <van-col span="8" class="nav-item" @click="goTo('/kcdg')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/yicheng.png"/></div><span>课程大纲</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="goTo('/kcjj')"><div class='nav-item-container kcdg'><div><img src="@/assets/img/kechengdagang.png"/></div><span>课程简介</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="go('zzjj')"><div class='nav-item-container skjb'><div><img src="@/assets/img/jiaoyiyuan.png"/></div><span>作者简介</span></div></van-col>
+        <!-- <van-col span="8" class="nav-item" @click="goTo('/jpkc')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/icon-dhr-list.png"/></div><span>精品课程</span></div></van-col> -->
+        <van-col span="8" class="nav-item" @click="goTo('/kcdg')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/icon-dhr-list.png"/></div><span>课程大纲</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="goTo('/kcjj')"><div class='nav-item-container kcdg'><div><img src="@/assets/img/icon-dhr-book.png"/></div><span>课程简介</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="go('zzjj')"><div class='nav-item-container skjb'><div><img src="@/assets/img/icon-dhr-person.png"/></div><span>作者简介</span></div></van-col>
       <!-- </van-row>
       <van-row :gutter="20"> -->
-        <van-col span="8" class="nav-item" @click="goTo('/djbm')"><div class='nav-item-container djbm'><div><img src="@/assets/img/baoming.png"/></div><span>点击报名</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="goTo('/chjt')"><div class='nav-item-container chjt'><div><img src="@/assets/img/jiaotongchuhang.png"/></div><span>参会交通</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="go('kcdy')"><div class='nav-item-container kcdy'><div><img src="@/assets/img/xiaoyuantiaoyan.png"/></div><span>课程调研</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="goTo('/djbm')"><div class='nav-item-container djbm'><div><img src="@/assets/img/icon-dhr-baoming.png"/></div><span>点击报名</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="goTo('/chjt')"><div class='nav-item-container chjt'><div><img src="@/assets/img/icon-dhr-chjt.png"/></div><span>参会交通</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="go('kcdy')"><div class='nav-item-container kcdy'><div><img src="@/assets/img/icon-dhr-tongji.png"/></div><span>课程调研</span></div></van-col>
       <!-- </van-row>
       <van-row :gutter="20"> -->
-        <!-- <van-col span="8" class="nav-item" @click="go('zpzb')"><div class='nav-item-container zpzb'><div><img src="@/assets/img/duosucai.png"/></div><span>照片直播</span></div></van-col> -->
-        <van-col span="8" class="nav-item" @click="goTo('/wqhg')"><div class='nav-item-container wqhg'><div><img src="@/assets/img/wangqihuigu.png"/></div><span>往期回顾</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="goTo('/spjj')"><div class='nav-item-container spjj'><div><img src="@/assets/img/shipin.png"/></div><span>视频集锦</span></div></van-col>
+        <!-- <van-col span="8" class="nav-item" @click="go('zpzb')"><div class='nav-item-container zpzb'><div><img src="@/assets/img/icon-dhr-duosucai.png"/></div><span>照片直播</span></div></van-col> -->
+        <van-col span="8" class="nav-item" @click="goTo('/wqhg')"><div class='nav-item-container wqhg'><div><img src="@/assets/img/icon-dhr-review.png"/></div><span>往期回顾</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="goTo('/spjj')"><div class='nav-item-container spjj'><div><img src="@/assets/img/icon-dhr-video.png"/></div><span>视频集锦</span></div></van-col>
       <!-- </van-row>
       <van-row :gutter="20"> -->
-        <van-col span="8" class="nav-item" @click="goTo('/more')"><div class='nav-item-container more'><div style='min-height: 20px'><img src="@/assets/img/jingqingqidai-kuaishou.png"/></div><span>更多论坛抢先看</span></div></van-col>
-        <van-col style="display: none;" span="8" class="nav-item" @click="goTo('/more')"><div class='nav-item-container more'><div><img src="@/assets/img/jingqingqidai-kuaishou.png"/></div><span>更多论坛抢先看</span></div></van-col>
-        <van-col style="display: none;" span="8" class="nav-item" @click="goTo('/more')"><div class='nav-item-container more'><div><img src="@/assets/img/jingqingqidai-kuaishou.png"/></div><span>更多论坛抢先看</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="goTo('/more')"><div class='nav-item-container more'><div style='min-height: 20px'><img src="@/assets/img/icon-dhr-more.png"/></div><span>更多论坛抢先看</span></div></van-col>
+        <van-col style="display: none;" span="8" class="nav-item" @click="goTo('/more')"><div class='nav-item-container more'><div><img src="@/assets/img/icon-dhr-more.png"/></div><span>更多论坛抢先看</span></div></van-col>
+        <van-col style="display: none;" span="8" class="nav-item" @click="goTo('/more')"><div class='nav-item-container more'><div><img src="@/assets/img/icon-dhr-more.png"/></div><span>更多论坛抢先看</span></div></van-col>
       </van-row>
     </div>
 

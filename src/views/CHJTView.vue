@@ -2,7 +2,7 @@
 
 <template>
   <div class="chjt">
-    <img src="@/assets/img/logo-bg.jpg" style="width: 100%; position: relative; top: 0; left: 0; "alt="logo">
+    <img style="width: 100%" src="@/assets/img/logo-bg.jpg"/>
     <main>
       <div class="title">参会交通</div>
       <img class="title-img" src="@/assets/img/chjt-title.png" alt="logo">

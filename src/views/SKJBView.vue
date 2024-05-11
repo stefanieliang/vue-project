@@ -2,7 +2,7 @@
 
 <template>
   <div class="skjb">
-    <img style="width: 100%" src="@/assets/img/skjb.jpg"/>
+    <!-- <img style="width: 100%" src="@/assets/img/skjb.jpg"/> -->
     <BackComponent />
   </div>
 </template>
