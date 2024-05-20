@@ -36,6 +36,7 @@
 <script setup lang="ts">
 import { ref } from "vue";
 import BackComponent from "@/components/BackComponent.vue";
+import imgNanjing1 from '@/assets/img/spjj-nanjing-11.jpg';
 import imgGuangzhou1 from '@/assets/img/spjj-guangzhou-11.jpg';
 import imgChangsha1 from '@/assets/img/spjj-changsha-11.png';
 import imgChangsha2 from '@/assets/img/spjj-changsha-22.png';
@@ -44,6 +45,17 @@ import imgChengdu2 from '@/assets/img/spjj-chengdu-22.png';
 import imgZhengzhou1 from '@/assets/img/spjj-zhengzhou-11.png';
 import imgZhengzhou2 from '@/assets/img/spjj-zhengzhou-22.png';
 const list = ref([
+  { 
+    titleStyle:'chengdu',
+    addr:'江苏南京',
+    title:'华东峰会数智人力专题论坛',
+    detail:[
+      {
+        img: imgNanjing1,
+        // path:''
+      },
+    ]
+  },
   { 
     titleStyle:'zhengzhou',
     addr:'广东广州',

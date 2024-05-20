@@ -12,8 +12,9 @@ import BackComponent from "@/components/BackComponent.vue";
 </script>
 <style scoped lang="less">
 .more{
-  height: 100vh;;
-  background-color: #FFFFFF;
+  height: 100vh;
+  background-color: #E7E8ED;
+  // background-color: #F3F2F4;
 }
 </style>
 

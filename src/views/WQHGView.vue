@@ -33,11 +33,20 @@
 <script setup lang="ts">
   import { ref } from "vue";
   import BackComponent from "@/components/BackComponent.vue";
+  import imgNanjing from '@/assets/img/wqhg-nanjing.jpg';
   import imgGuangzhou from '@/assets/img/wqhg-guangzhou.jpg';
   import imgChangsha from '@/assets/img/wqhg-changsha.png';
   import imgChengdu from '@/assets/img/wqhg-chengdu.png';
   import imgZhengzhou from '@/assets/img/wqhg-zhengzhou.png';
   const reviewlist = ref([
+    {
+      img: imgNanjing,
+      t1:'5月16日 江苏南京',
+      t2:'华东峰会数智人力专题论坛',
+      t3:'AI+绩效认知升级，开启绩效管理升级新篇章！',
+      detail:'本次峰会以聚焦华东地区的产业转型升级、数智化技术的深度融合与创新应用，为华东地区数智化产业的发展注入新动能！峰会汇聚了业界顶尖的专家学者、企业家和创新者，他们分享了各自在数智化领域的最新研究成果和实践经验。峰会的圆满举办，让我们见证了数智化产业的蓬勃发展，感受到科技创新的澎湃动力，进一步推动华东地区数智化产业的高速发展。',
+      path: 'https://mp.weixin.qq.com/s/alqeILAy6T5MYO52hsF5Mw'
+    },
     {
       img: imgGuangzhou,
       t1:'5月10日 广东广州',

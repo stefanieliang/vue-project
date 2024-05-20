@@ -2,16 +2,16 @@
   <main>
     
     <img style="width: 100%" src="@/assets/img/logo-bg.jpg"/>
-    <!-- <section class="title">
-      大湾区峰会  <span class="dot"></span>  广东广州
-    </section> -->
+    <section class="title">
+      东北峰会  <span class="dot"></span>  中国沈阳
+    </section>
 
     <div class="nav">
       <van-row :gutter="20">
         <!-- <van-col span="8" class="nav-item" @click="goTo('/jpkc')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/icon-dhr-list.png"/></div><span>精品课程</span></div></van-col> -->
-        <van-col span="8" class="nav-item" @click="goTo('/kcdg')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/icon-dhr-list.png"/></div><span>课程大纲</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="goTo('/kcjj')"><div class='nav-item-container kcdg'><div><img src="@/assets/img/icon-dhr-book.png"/></div><span>课程简介</span></div></van-col>
-        <van-col span="8" class="nav-item" @click="go('zzjj')"><div class='nav-item-container skjb'><div><img src="@/assets/img/icon-dhr-person.png"/></div><span>作者简介</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="goTo('/kcdg')"><div class='nav-item-container jpkc'><div><img src="@/assets/img/icon-dhr-list.png"/></div><span>论坛议程</span></div></van-col>
+        <!-- <van-col span="8" class="nav-item" @click="goTo('/kcjj')"><div class='nav-item-container kcdg'><div><img src="@/assets/img/icon-dhr-book.png"/></div><span>课程简介</span></div></van-col>
+        <van-col span="8" class="nav-item" @click="go('zzjj')"><div class='nav-item-container skjb'><div><img src="@/assets/img/icon-dhr-person.png"/></div><span>作者简介</span></div></van-col> -->
       <!-- </van-row>
       <van-row :gutter="20"> -->
         <van-col span="8" class="nav-item" @click="goTo('/djbm')"><div class='nav-item-container djbm'><div><img src="@/assets/img/icon-dhr-baoming.png"/></div><span>点击报名</span></div></van-col>
@@ -70,7 +70,7 @@ const go = (param) => {
     min-height: 100vh;
     background-color: #FFFFFF;
     .title{
-      padding-top: 262px;
+      // padding-top: 262px;
       padding-bottom: 30px;
       font-weight: 600;
       font-size: 22px;
